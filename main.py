@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 app = FastAPI()
 
-print("Hola Migue! jajajaj")
+print("Hola Migue! Te has vuelto muy fuerte sayajin")
 
 class Repuesto(BaseModel):
     id: int
